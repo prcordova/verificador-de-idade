@@ -4,9 +4,9 @@ function verificar() {
     var fano = document.getElementById('txtano')
     var res = document.querySelector('div#res')
 
-    if (fano.value.length == 0 || Number(fano.value) > ano) {
+    if (fano.value.length == 0 || Number(fano.value) > ano  ) {
         window.alert('[ERRO] verifique os dados e tente novamente! ')
-    } else {
+    }    else {
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
         var genero = ''
